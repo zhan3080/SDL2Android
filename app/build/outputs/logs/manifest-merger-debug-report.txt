@@ -1,0 +1,135 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:5:1-93:12
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:5:1-93:12
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:5:1-93:12
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:5:1-93:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/huangzezhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/eb621b677e1804bdefe6d4d2785cb43e/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.0.1] /Users/huangzezhan/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/b88be8642d4a8d913770117266c0eb49/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:5:1-93:12
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:5:1-93:12
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:5:1-93:12
+	package
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:6:5-29
+		INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:8:5-30
+		INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:5:11-69
+	android:versionCode
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:7:5-28
+		INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+	android:installLocation
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:9:5-35
+uses-feature#0x00020000
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:12:5-54
+	android:glEsVersion
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:12:19-51
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:15:5-17:36
+	android:required
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:17:9-33
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:16:9-52
+uses-feature#android.hardware.bluetooth
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:21:9-50
+uses-feature#android.hardware.gamepad
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:24:9-48
+uses-feature#android.hardware.usb.host
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:28:9-33
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:27:9-49
+uses-feature#android.hardware.type.pc
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:31:5-33:36
+	android:required
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:33:9-33
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:32:9-48
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:42:5-81
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:42:22-78
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:44:5-68
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:44:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:46:5-66
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:46:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:48:5-83
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:48:22-81
+application
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:61:5-91:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/huangzezhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/eb621b677e1804bdefe6d4d2785cb43e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/huangzezhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/eb621b677e1804bdefe6d4d2785cb43e/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/huangzezhan/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/b88be8642d4a8d913770117266c0eb49/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/huangzezhan/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/b88be8642d4a8d913770117266c0eb49/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:61:18-50
+	android:hardwareAccelerated
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:65:9-43
+	android:icon
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:62:9-43
+	android:allowBackup
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:63:9-35
+	android:theme
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:64:9-67
+activity#org.libsdl.app.SDLActivity
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:71:9-90:20
+	android:screenOrientation
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:72:13-49
+	android:label
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:73:13-45
+	android:launchMode
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:75:13-48
+	android:configChanges
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:76:13-133
+	android:alwaysRetainTaskState
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:74:13-49
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:71:19-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:78:13-81:29
+action#android.intent.action.MAIN
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:79:17-69
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:79:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:80:17-77
+	android:name
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml:80:27-74
+uses-sdk
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/huangzezhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/eb621b677e1804bdefe6d4d2785cb43e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/huangzezhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/eb621b677e1804bdefe6d4d2785cb43e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/huangzezhan/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/b88be8642d4a8d913770117266c0eb49/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/huangzezhan/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/b88be8642d4a8d913770117266c0eb49/AndroidManifest.xml:20:5-43
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+		ADDED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/huangzezhan/AndroidStudioProjects/AndroidSdl/app/src/main/AndroidManifest.xml
