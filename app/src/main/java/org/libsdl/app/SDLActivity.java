@@ -1783,7 +1783,7 @@ class SDLSurface extends SurfaceView implements SurfaceHolder.Callback,
     @Override
     public void surfaceChanged(SurfaceHolder holder,
                                int format, int width, int height) {
-        Log.v("SDL", "surfaceChanged()");
+        Log.v("SDL", "surfaceChanged() w/h:" + width + "/" + height);
 
         if (SDLActivity.mSingleton == null) {
             return;

@@ -61,7 +61,7 @@ int main(int argc, char *argv[]) {
 
     //window = SDL_CreateWindow("SDL HelloWorld!", 100, 100, 640, 480,
     //       SDL_WINDOW_SHOWN);
-    window = SDL_CreateWindow("SDL HelloWorld!", 200, 0, 176, 120,
+    window = SDL_CreateWindow("SDL HelloWorld!", 0, 0, 960, 540,
                 SDL_WINDOW_SHOWN);
     if (window == NULL) {
         LOGE("SDL_CreateWindow failed  %s", SDL_GetError());
