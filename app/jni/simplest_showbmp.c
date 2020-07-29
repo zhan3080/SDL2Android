@@ -27,6 +27,11 @@
 #include "SDL_main.h"
 #include <unistd.h>
 #include "src/core/android/SDL_android.h"
+
+#include "libavcodec/avcodec.h"
+#include "libavformat/avformat.h"
+#include "libavfilter/avfilter.h"
+#include "libswscale/swscale.h"
  
 int main(int argc, char *argv[]) {
     if (!Android_JNI_RequestPermission("android.permission.WRITE_EXTERNAL_STORAGE")) {
@@ -83,6 +88,23 @@ int main(int argc, char *argv[]) {
     SDL_RenderClear(render);
     SDL_RenderCopy(render, texture, NULL, NULL);
     SDL_RenderPresent(render);
+
+
+    //test for ffmpeg
+    char info[40000]={0};
+    struct URLProtocol *pup = NULL;
+    struct URLProtocol **p_temp = &pup;
+    avio_enum_protocols((void **)p_temp, 0);
+    while ((*p_temp) != NULL){
+    	sprintf(info, "%s[In ][%10s]\n", info, avio_enum_protocols((void **)p_temp, 0));
+    }
+    pup = NULL;
+    avio_enum_protocols((void **)p_temp, 1);
+    while ((*p_temp) != NULL){
+    	sprintf(info, "%s[Out][%10s]\n", info, avio_enum_protocols((void **)p_temp, 1));
+    }
+
+    LOGE("SDL_LoadBMP URLProtocol: %s", info);
  
     SDL_Delay(20000);
  

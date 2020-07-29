@@ -133,6 +133,53 @@ LOCAL_LDLIBS := -llog
 include $(BUILD_SHARED_LIBRARY)
 
 
+
+
+#### ffmpeg ####
+
+include $(CLEAR_VARS)
+LOCAL_MODULE    := libavcodec
+LOCAL_SRC_FILES := $(LOCAL_PATH)/libavcodec.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE    := libavfilter
+LOCAL_SRC_FILES := $(LOCAL_PATH)/libavfilter.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE    := libavformat
+LOCAL_SRC_FILES := $(LOCAL_PATH)/libavformat.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE    := libavutil
+LOCAL_SRC_FILES := $(LOCAL_PATH)/libavutil.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE    := libswresample
+LOCAL_SRC_FILES := $(LOCAL_PATH)/libswresample.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE    := libswscale
+LOCAL_SRC_FILES := $(LOCAL_PATH)/libswscale.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE    := libavdevice
+LOCAL_SRC_FILES := $(LOCAL_PATH)/libavdevice.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE    := libpostproc
+LOCAL_SRC_FILES := $(LOCAL_PATH)/libpostproc.a
+include $(PREBUILT_STATIC_LIBRARY)
+
+
+
+
 ###libSDL2main###
 
 include $(CLEAR_VARS)
@@ -143,13 +190,23 @@ SDL_PATH := ./
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/$(SDL_PATH)/include
 
+LOCAL_C_INCLUDES += \
+	$(LOCAL_PATH) \
+
 # Add your application source files here...
 LOCAL_SRC_FILES := $(SDL_PATH)/src/main/android/SDL_android_main.c \
 	$(SDL_PATH)/simplest_showbmp.c
 
+
 LOCAL_SHARED_LIBRARIES := SDL2
 
-LOCAL_LDLIBS := -lGLESv1_CM -lGLESv2 -llog
+LOCAL_LDLIBS := -lGLESv1_CM -lGLESv2 -llog -lz
+
+#顺序很重要
+LOCAL_STATIC_LIBRARIES := libavformat libavfilter libavcodec libavutil libswresample libavdevice  libpostproc libswscale
+
+
+LOCAL_LDFLAGS += -Wl,--gc-sections
 
 include $(BUILD_SHARED_LIBRARY)
 
